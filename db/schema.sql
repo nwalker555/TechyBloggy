@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS techybloggy;
+
+CREATE DATABASE techybloggy;
