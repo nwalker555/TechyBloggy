@@ -3,9 +3,9 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
-const routes = require('./src/routes');
+const routes = require('./controllers');
 const sequelize = require('./config/connection');
-const helpers = require('./src/utils/helpers');
+const helpers = require('./utils/helpers');
 const mysql2 = require('mysql2');
 
 const app = express();
